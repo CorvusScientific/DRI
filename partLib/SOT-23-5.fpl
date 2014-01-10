@@ -1,0 +1,28 @@
+name: "SOT-23-5"
+author: "KCP"
+  units: NM
+  sel_rect: -554000 -804000 2454000 3604000
+  ref_text: 1270000 2540000 2540000 0 127000
+  value_text: 2540000 2540000 0 0 254000
+  centroid: 0 950000 1400000 0
+  outline_polyline: 177800 0 783333
+    next_corner: 1900000 783333 0
+    next_corner: 1900000 2016666 0
+    next_corner: 0 2016666 0
+    next_corner: 0 1633333 0
+    next_corner: 237500 1633333 0
+    next_corner: 237500 1166666 0
+    next_corner: 0 1166666 0
+    close_polyline: 0
+  n_pins: 5
+    pin: "1" 0 0 0 90
+      top_pad: 3 600000 550000 550000 0
+    pin: "2" 0 950000 0 270
+      top_pad: 3 600000 550000 550000 0
+    pin: "3" 0 1900000 0 270
+      top_pad: 3 600000 550000 550000 0
+    pin: "4" 0 1900000 2800000 90
+      top_pad: 3 600000 550000 550000 0
+    pin: "6" 0 0 2800000 90
+      top_pad: 3 600000 550000 550000 0
+
