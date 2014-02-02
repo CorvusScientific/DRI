@@ -1,0 +1,51 @@
+Reference,Quantity,Name,Description,Package,Digikey Part number
+"C11,C15,C18,C20,C23,C24,C25,C30,C8",9,0.1 uF,Small Capacitor,402,587-1227-1-ND
+"C16,C4,C5",3,0.1uF,Small Capacitor,402,587-1227-1-ND
+"C28,C29",2,1 uF,Small Capacitor,402,587-1231-1-ND
+"C10,C9",2,1 uF,Small Capacitor,603,587-1242-1-ND
+"C1,C13",2,10 nF,Small Capacitor,402,311-1042-1-ND
+C14,1,100 nF,Small Capacitor,402,587-1227-1-ND
+"R23,R6",2,100K,Small Resistor,402,311-100KLRCT-ND
+"R4,R7,R9",3,10K,Small Resistor,402,311-10KJRCT-ND
+C31,1,10uF,Small Capacitor,603,1276-1119-1-ND
+"C21,C22",2,12 pF,Small Capacitor,402,587-1948-1-ND
+"C26,C27",2,15 pF,Small Capacitor,402,587-1949-1-ND
+R8,1,16K,Small Resistor,402,311-16.0KLRCT-ND
+"R18,R19",2,1K,Small Resistor,402,311-1.0KJRCT-ND
+C19,1,1nf,Small Capacitor,402,311-1036-1-ND
+C17,1,2.2 uF,Small Capacitor,603,587-1254-1-ND
+R21,1,2.2K,Small Resistor,402,311-2.2KJRCT-ND
+"R11,R13",2,20K,Small Resistor,402,311-20.0KLRCT-ND
+"R1,R2",2,27R,Small Resistor,402,311-27JRCT-ND
+X1,1,32 MHz,Crystal,Epson FA-128 crystal,SER3800CT-ND
+X2,1,32 kHz,Crystal,ECS-.327-12.5-39-TR,XC1658CT-ND
+"C6,C7",2,4.7 uF,Small Capacitor,603,587-1785-1-ND
+C12,1,470 nF,Small Capacitor,402,587-1230-1-ND
+"R10,R12,R14,R15,R16,R20,R24,R3,R5",9,470R,Small Resistor,402,311-470JRCT-ND
+"C2,C3",2,47pF,Small Capacitor,402,311-1021-1-ND
+R22,1,56k,Small Resistor,402,311-56KJRCT-ND
+H2,1,AVR header,AVR header,SMT 2x3 100-mil,609-3487-1-ND
+U6,1,CC2540,CC2540,QFN40,296-27922-1-ND
+U7,1,DRV8835DSSR,DUAL LOWVOLTAGE H-BRIDGE IC,12-WFDFN,296-30391-1-ND
+D3,1,D_SCHOTTKY,Schottky diode,603,641-1332-1-ND
+U1,1,FT234XD,FTDI USB to UART,DFN-12,768-1178-1-ND
+U3,1,FT531JA,250mA 3.3V LDO Regulator,SOT-23-5,1219-1084-1-ND
+F1,1,Ferrite Bead,Ferrite Bead,402,587-1921-1-ND
+"D4,D5",2,IR LED,Light-Emitting Diode,IR LED,1080-1091-nd
+A1,1,Johanson 2450AT18A100E,antenna,Johanson 2450AT18A100E,712-1005-1-ND
+PT1,1,KDT00030,Phototransistor PhotoDetector,SMT pTrans,KDT00030FSCT-ND
+"D6,D7,D8",3,LED,Light-Emitting Diode,GRN LED,160-1446-1-ND
+"D10,D2",2,LED,Light-Emitting Diode,RED LED,160-1447-1-ND
+D1,1,LED,Light-Emitting Diode,YLW LED - 0603,160-1434-1-ND
+D9,1,LED,Light-Emitting Diode,YLW LED,160-1434-1-ND
+U4,1,LY3200ALH,Analog yaw-rate gyroscope,10-LGA,497-11080-1-nd
+U2,1,MCP73831T-2ACI/OT,Li-Poly charging,SOT-23-5,mcp73831t-2aci/otct-nd
+SW2,1,MOM_SPDT,Momentary SPDT pushbutton,SPST switch,450-1140-ND
+"FET1,FET2",2,P-CH MOSFET,Enhancement mode N-channel MOSFET,SOT-23-3,DMG2305UX-7DICT-ND
+"PT2,PT3",2,PT908-7B-F,Phototransistor IR,IR PT,1080-1163-nd
+R17,1,1MR,Resistor,,311-1.00MLRCT-ND
+SW1,1,SWITCH_SPST,Single pole normally closed on/off switch,,401-2016-1-ND
+H4,1,TI header,TI debug header,FCI 20021121-00010C4LF,609-3695-1-ND
+U5,1,atmega328p,atmega328p,32-MLF (VFQFN),ATMEGA328P-MURCT-ND
+Balun1,1,balun for CC2540,JOHANSON TECHNOLOGY  2450BM15A0002E,6-dfn special,712-1536-1-ND
+H1,1,uUSB header,USB,uUSB rcpt,609-4613-2-ND
