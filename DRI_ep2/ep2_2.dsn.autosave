@@ -3820,6 +3820,8 @@ download a copy.-->
 		<TEXT pos='154.00000,210.00000' direction='0' font='0' color='000000'>could be removed to save ~$0.30/brd @2000</TEXT>
 		<POWER pos='236.00000,52.00000' which='4' direction='3'>GND</POWER>
 		<WIRE a='236.00000,52.00000' b='232.00000,52.00000'/>
+		<TEXT pos='230.00000,48.00000' direction='3' font='0' color='000000'>needs a current limiter?</TEXT>
+		<TEXT pos='80.00000,56.00000' direction='3' font='0' color='000000'>VUSB or VDD?</TEXT>
 	</TinyCAD>
 	<TinyCAD>
 		<NAME>radio</NAME>
