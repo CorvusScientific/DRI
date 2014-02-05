@@ -19,16 +19,6 @@ download a copy.-->
 			<DATE></DATE>
 			<GRID spacing='100.00000' snap='1'/>
 		</DETAILS>
-		<FONT id='0'>
-			<HEIGHT>-13</HEIGHT>
-			<WIDTH>6</WIDTH>
-			<WEIGHT>400</WEIGHT>
-			<ITALIC>0</ITALIC>
-			<UNDERLINE>0</UNDERLINE>
-			<STRIKEOUT>0</STRIKEOUT>
-			<CHARSET>0</CHARSET>
-			<FACENAME>Arial</FACENAME>
-		</FONT>
 		<FONT id='1'>
 			<HEIGHT>-10</HEIGHT>
 			<WIDTH>0</WIDTH>
@@ -40,6 +30,16 @@ download a copy.-->
 			<FACENAME>Arial</FACENAME>
 		</FONT>
 		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='4'>
 			<HEIGHT>-13</HEIGHT>
 			<WIDTH>6</WIDTH>
 			<WEIGHT>400</WEIGHT>
@@ -593,16 +593,16 @@ download a copy.-->
 		<WIRE a='171.00000,138.00000' b='174.00000,138.00000'/>
 		<WIRE a='174.00000,126.00000' b='174.00000,122.00000'/>
 		<WIRE a='174.00000,138.00000' b='174.00000,126.00000'/>
-		<LABEL pos='172.00000,100.00000' direction='2' font='3' color='208000' style='3'>uc_RX</LABEL>
-		<LABEL pos='172.00000,96.00000' direction='2' font='3' color='208000' style='3'>uc_TX</LABEL>
+		<LABEL pos='172.00000,100.00000' direction='2' font='4' color='208000' style='3'>uc_RX</LABEL>
+		<LABEL pos='172.00000,96.00000' direction='2' font='4' color='208000' style='3'>uc_TX</LABEL>
 		<WIRE a='172.00000,96.00000' b='170.00000,96.00000'/>
 		<WIRE a='172.00000,100.00000' b='170.00000,100.00000'/>
-		<LABEL pos='130.00000,60.00000' direction='2' font='3' color='208000' style='3'>USB_DP</LABEL>
-		<LABEL pos='130.00000,54.00000' direction='2' font='3' color='208000' style='3'>USB_DM</LABEL>
+		<LABEL pos='130.00000,60.00000' direction='2' font='4' color='208000' style='3'>USB_DP</LABEL>
+		<LABEL pos='130.00000,54.00000' direction='2' font='4' color='208000' style='3'>USB_DM</LABEL>
 		<WIRE a='126.00000,54.00000' b='130.00000,54.00000'/>
 		<WIRE a='126.00000,60.00000' b='130.00000,60.00000'/>
-		<LABEL pos='96.00000,112.00000' direction='3' font='3' color='208000' style='3'>USB_DP</LABEL>
-		<LABEL pos='96.00000,106.00000' direction='3' font='3' color='208000' style='3'>USB_DM</LABEL>
+		<LABEL pos='96.00000,112.00000' direction='3' font='4' color='208000' style='3'>USB_DP</LABEL>
+		<LABEL pos='96.00000,106.00000' direction='3' font='4' color='208000' style='3'>USB_DM</LABEL>
 		<POWER pos='176.00000,48.00000' which='0' direction='3'>VDD_USB</POWER>
 		<SYMBOL id='1' pos='174.00000,50.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='F1' show='1' pos='-11.00000,2.40000'/>
@@ -620,7 +620,7 @@ download a copy.-->
 			<FIELD type='0' description='Ref' value='C5' show='1' pos='-6.00000,2.00000'/>
 			<FIELD type='0' description='Name' value='0.1uF' show='1' pos='-6.00000,-4.00000'/>
 		</SYMBOL>
-		<LABEL pos='196.00000,106.00000' direction='2' font='3' color='208000' style='3'>RST</LABEL>
+		<LABEL pos='196.00000,106.00000' direction='2' font='4' color='208000' style='3'>RST</LABEL>
 		<WIRE a='170.00000,106.00000' b='180.00000,106.00000'/>
 		<WIRE a='193.00000,106.00000' b='196.00000,106.00000'/>
 		<NOCONNECT pos='170.00000,110.00000'/>
@@ -684,7 +684,7 @@ download a copy.-->
 		<WIRE a='152.00000,48.00000' b='152.00000,50.00000'/>
 		<WIRE a='152.00000,48.00000' b='154.00000,48.00000'/>
 		<WIRE a='174.00000,48.00000' b='176.00000,48.00000'/>
-		<LABEL pos='178.00000,122.00000' direction='2' font='3' color='208000' style='3'>usb_ON</LABEL>
+		<LABEL pos='178.00000,122.00000' direction='2' font='4' color='208000' style='3'>usb_ON</LABEL>
 		<WIRE a='174.00000,122.00000' b='178.00000,122.00000'/>
 		<JUNCTION pos='102.00000,106.00000'/>
 		<JUNCTION pos='102.00000,112.00000'/>
@@ -692,8 +692,8 @@ download a copy.-->
 		<JUNCTION pos='150.00000,138.00000'/>
 		<JUNCTION pos='174.00000,122.00000'/>
 		<JUNCTION pos='174.00000,126.00000'/>
-		<TEXT pos='166.00000,86.00000' direction='3' font='0' color='000000'>the RX/TX lines cannot be shared in this fashion</TEXT>
-		<TEXT pos='166.00000,90.00000' direction='3' font='0' color='000000'>even when the ft324xd is off, the lines are pulled high at all times</TEXT>
+		<TEXT pos='166.00000,86.00000' direction='3' font='3' color='000000'>the RX/TX lines cannot be shared in this fashion</TEXT>
+		<TEXT pos='166.00000,90.00000' direction='3' font='3' color='000000'>even when the ft324xd is off, the lines are pulled high at all times</TEXT>
 	</TinyCAD>
 	<TinyCAD>
 		<NAME>power</NAME>
@@ -2889,7 +2889,7 @@ download a copy.-->
 		</SYMBOL>
 		<SYMBOL id='10' pos='72.00000,156.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Ref' value='R9' show='1' pos='1.00000,-9.60000'/>
-			<FIELD type='0' description='Name' value='10K' show='1' pos='1.00000,-8.00000'/>
+			<FIELD type='0' description='Name' value='1M' show='1' pos='1.00000,-8.00000'/>
 		</SYMBOL>
 		<POWER pos='70.00000,158.00000' which='4' direction='1'>GND</POWER>
 		<LABEL pos='72.00000,136.00000' direction='2' font='3' color='208000' style='3'>ambient_light</LABEL>
